@@ -21,8 +21,8 @@
             </a>
           </li>
           <li class="nav-item">
-           <a class="nav-link <?=$page=='Orders'?'active':''?>" href="orders.php">
-             <span data-feather="shopping-cart"></span>
+          <a class="nav-link <?=$page=='Orders'?'active':''?>" href="orders.php">
+            <span data-feather="shopping-cart"></span>
             Orders
           </a>
           </li>

@@ -44,7 +44,7 @@
             <tr>
               <td><?=$order['inv_number']?></td>
               <td><?=$order['cus_fname']?></td>
-              <td><?=date('d M Y', strtotime($order['inv_date']))?></td>
+              <td><?= date('d/m/Y', strtotime($order['inv_date'])) ?></td>
               <td><?=number_format($order['inv_subtotal'], 2)?></td>
               <td><?=number_format($order['inv_tax'], 2)?></td>
               <td><?=number_format($order['inv_total'], 2)?></td>
