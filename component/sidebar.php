@@ -15,7 +15,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="customers.html">
+            <a class="nav-link" <?=$page=='Customers'?'active':''?>" href="customers.php">
               <span data-feather="shopping-cart"></span>
               Customers
             </a>
